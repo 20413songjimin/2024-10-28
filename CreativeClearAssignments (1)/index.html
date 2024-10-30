@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="weather-app">
+        <h1>현재 날씨</h1>
+        <div class="search">
+            <input type="text" id="location-input" placeholder="도시 이름을 입력하세요">
+            <button onclick="getWeather()">검색</button>
+        </div>
+        <div class="weather-result" id="weather-result">
+            <!-- 날씨 결과가 여기에 표시됩니다. -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
